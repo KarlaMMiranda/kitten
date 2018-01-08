@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+ /*Paisaje 1*/
+.paisaje-1{
+  display: none;
+}
+
+.image-1{
+  position: absolute;
+  margin: 14rem 8rem;
+}
+
+/*Paisaje 2*/
+.paisaje-2 {
+  display: none;
+}
+
+.image-3 {
+  position: absolute;
+  margin: 26rem 28rem;
+}
+
+/*Paisaje 3*/
+.paisaje-3{
+  display: block;
+}
+
+.image-5 {
+  position: absolute;
+  margin: 32rem 23rem;
+}
+
+.image-6 {
+  width: 100%;
+}
+
+/*Modificando display*/
+@media (max-width: 1280px){
+  .paisaje-3 {
+    display: none;
+  }
+
+  .paisaje-1 {
+    display: none;
+  }
+
+  .paisaje-2 {
+    display: block;
+  }
+}
+
+@media (max-width: 900px){
+  .paisaje-1 {
+    display: block;
+  }
+
+  .paisaje-3 {
+    display: none;
+  }
+
+  .paisaje-2 {
+    display: none;
+  }
+}
